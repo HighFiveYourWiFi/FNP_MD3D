@@ -33,6 +33,10 @@ body {
   text-decoration: var(--slategray-text-deco);
 }
 
+.quick-search__input {
+  border-radius: 14px;
+}
+
 .form__textarea {
   border-radius: 14px;
 }
