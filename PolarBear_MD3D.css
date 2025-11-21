@@ -25,16 +25,16 @@ body {
 }
 
 .nav-tab--active__link {
-    text-decoration: var(--slategray-text-deco);
+  text-decoration: var(--slategray-text-deco);
 }
 
 .nav-tab__link:hover,
 .nav-tab--active__link:hover {
-    text-decoration: var(--slategray-text-deco);
+  text-decoration: var(--slategray-text-deco);
 }
 
 .form__textarea {
-border-radius: 14px;
+  border-radius: 14px;
 }
 
 .form__button--text:hover {
@@ -42,12 +42,23 @@ border-radius: 14px;
   border-color: transparent;
 }
 
-
 .form__standard-icon-button:hover {
   background: rgba(255, 255, 255, 0.05);
   border-color: transparent;
 }
 
 .panel__tab:hover {
-  color: #fff
+  filter: brightness(1.1);
+}
+
+.torrent-card__link:hover {
+  filter: brightness(1.1);
+}
+
+.featured-carousel__slide .torrent-card {
+  transition: transform 0.3s ease;
+}
+
+.featured-carousel__slide .torrent-card:hover {
+  transform: scale(1.01);
 }
