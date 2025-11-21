@@ -27,3 +27,23 @@ body {
 .nav-tab--active__link {
     text-decoration: var(--slategray-text-deco);
 }
+
+.nav-tab__link:hover,
+.nav-tab--active__link:hover {
+    text-decoration: var(--slategray-text-deco);
+}
+
+.form__textarea {
+border-radius: 14px;
+}
+
+.form__button--text:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: transparent;
+}
+
+
+.form__standard-icon-button:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: transparent;
+}
